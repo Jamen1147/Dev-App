@@ -1,0 +1,16 @@
+components:
+  schemas:
+    User:
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        email:
+          type: string
+        avatar:
+          type: string
+          description: url to access the avatar
+        date:
+          type: string
+          description: date string

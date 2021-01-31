@@ -1,0 +1,17 @@
+{
+  "jwt": {
+    "secret": "secret"
+  },
+  "db": {
+    "user": "jamen-root",
+    "password": "keef0cot@nolt2SQEP",
+    "db": "express-ts"
+  },
+  "github": {
+    "clientId": "42b871cff1b33606bd3b",
+    "secret": "608ef42df949314c9af2822568b92b334ba4fde5"
+  },
+  "server": {
+    "port": 5000
+  }
+}

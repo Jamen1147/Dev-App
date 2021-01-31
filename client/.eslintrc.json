@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "react-app",
+    "airbnb",
+    "plugin:react/recommended",
+    "../.eslintrc.json"
+  ],
+  "rules": {
+    "no-console": [
+      "warn",
+      { "allow": ["warn", "error", "info", "table", "trace"] }
+    ],
+    "react/jsx-filename-extension": [2, { "extensions": [".ts", ".tsx"] }],
+    "import/extensions": "off",
+    "arrow-body-style": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.ts",
+          "**/*.test.tsx",
+          "./client/src/setupTests.ts"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".ts", ".tsx"]
+      }
+    }
+  }
+}
